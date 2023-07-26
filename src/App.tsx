@@ -1,25 +1,10 @@
 import { useEffect, useLayoutEffect, useState } from "react";
-
 import "./index.css";
 import { GiHearts, GiTreasureMap } from "react-icons/gi";
 import { GiCutDiamond } from "react-icons/gi";
 import { BiSearchAlt } from "react-icons/bi";
-
 import { toast } from "react-toastify";
 import { Modal } from "./components/Modal";
-
-// DONE: colocar o personagem em uma posicao aleatoria
-// DONE: gerar pistas em posicoes aleatorias
-// DONE: se o jogador por cima tem que apagar a pista
-// DONE: se o jogador tambem tem que remover a vida se preciso
-// DONE: nao mostrar mais notificações quando perder ou ganhar
-
-// TODO: separar as funções
-
-// buges
-// TODO: remover pista ao passar por cima
-
-// TODO: parar boneco quando perder ou ganhar
 
 const LIFE_INITIAL = 3;
 const LIFE_TOTAL = 3;
